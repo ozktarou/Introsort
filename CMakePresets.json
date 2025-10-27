@@ -1,0 +1,29 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 21,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "Build-Windows-x64",
+            "binaryDir": "${sourceDir}/build",
+            "toolset": "host=x64",
+            "architecture": "x64",
+            "cacheVariables": {}
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Build-Windows-x64-Release",
+            "configurePreset": "Build-Windows-x64",
+            "configuration": "Release"
+        },
+        {
+            "name": "Build-Windows-x64-Debug",
+            "configurePreset": "Build-Windows-x64",
+            "configuration": "Debug"
+        }
+    ]
+}
