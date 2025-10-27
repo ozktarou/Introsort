@@ -8,3 +8,4 @@ project(${TARGET_NAME} VERSION ${TARGET_VERSION})
 install(DIRECTORY include/ DESTINATION include)
 
 add_subdirectory(example)
+add_subdirectory(test)
