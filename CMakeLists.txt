@@ -6,3 +6,5 @@ set(TARGET_VERSION 1.0.0.0)
 project(${TARGET_NAME} VERSION ${TARGET_VERSION})
 
 install(DIRECTORY include/ DESTINATION include)
+
+add_subdirectory(example)
