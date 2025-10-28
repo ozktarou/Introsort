@@ -11,7 +11,10 @@
             "binaryDir": "${sourceDir}/build",
             "toolset": "host=x64",
             "architecture": "x64",
-            "cacheVariables": {}
+            "cacheVariables": {
+                "ENABLE_EXAMPLE": "ON",
+                "ENABLE_TEST": "ON"
+            }
         }
     ],
     "buildPresets": [
